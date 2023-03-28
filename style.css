@@ -1,36 +1,5 @@
 
 
-.navigation{
-    background-color: gray;
-    padding: 15px 10px;
-    display: flex;
-    direction: row;
-}
-.logo{
-    width: 20%;
-}
-.nav{
-    width: 60%;
-    padding: 10px;
-}
-#login{
-    width: 20%;
-}
-nav > ul {
-    display: flex;
-    flex-direction: row;
-    
-}
-nav li {
-    list-style-type: none;
-    padding: 0px 5px;
-}
-nav a {
-    text-decoration: none;
-    color: black;
-
-}
-
 .CartContainer{
 	width: 90%;
 	height: 70%;
