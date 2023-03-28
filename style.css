@@ -1,0 +1,45 @@
+/* body{ 
+    background-color : gray; 
+
+} */
+
+    #admin-main{
+        display: flex;
+    }
+
+    .total{
+        width: 50%;
+        background-color: #616A6B ;
+        box-sizing: border-box;
+        border: 1px solid black;
+        margin: 5px;
+
+        
+    }
+
+ #table{
+    display: flex;
+
+ }
+ table{
+    width: 100%;
+ }
+ .pro{
+    width: 30%;
+   background-color: #7B7D7D;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin: 5px;
+
+    
+}
+th{
+    width: 20%;
+    box-sizing: border-box;
+    background-color: lightgray
+}
+td{
+    width: 20%;
+    box-sizing: border-box;
+    background-color:lightgray ;
+}
