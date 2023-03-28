@@ -1,45 +1,166 @@
-/* body{ 
-    background-color : gray; 
-
-} */
-
-    #admin-main{
-        display: flex;
-    }
-
-    .total{
-        width: 50%;
-        background-color: #616A6B ;
-        box-sizing: border-box;
-        border: 1px solid black;
-        margin: 5px;
-
-        
-    }
-
- #table{
+*{
+    margin: 0;
+}
+/* navigation */
+.navigation{
+    background-color: gray;
+    padding: 15px 10px;
     display: flex;
-
- }
- table{
-    width: 100%;
- }
- .pro{
-    width: 30%;
-   background-color: #7B7D7D;
-    box-sizing: border-box;
-    border: 1px solid black;
-    margin: 5px;
-
+    direction: row;
+}
+.logo{
+    width: 20%;
+}
+.nav{
+    width: 60%;
+    padding: 10px;
+}
+#login{
+    width: 20%;
+}
+nav > ul {
+    display: flex;
+    flex-direction: row;
     
 }
-th{
-    width: 20%;
-    box-sizing: border-box;
-    background-color: lightgray
+nav li {
+    list-style-type: none;
+    padding: 0px 5px;
 }
-td{
-    width: 20%;
+nav a {
+    text-decoration: none;
+    color: black;
+
+}
+
+/* home page carousel */
+#carousel{
+    height: 400px;
+    background-color: rgb(177, 177, 177);
+
+}
+#carousel > h1 {
+    padding-top: 15%;
+    margin-left: 45%;
+}
+/* home page feature products */
+.feature_product{
+    padding: 20px;
+    text-align: center;
+}
+#feature_product{
+    display: flex;
+    flex-direction: row;
     box-sizing: border-box;
-    background-color:lightgray ;
+}
+.product{
+    width: 25%;
+    background-color: gray;
+    height: 200px;
+    border: 2px solid black;
+    margin-left: 10PX;
+    margin-right: 10PX;
+
+}
+.product h3{
+    padding-top: 40%;
+    text-align: center;
+}
+
+/* hot deals */
+.deals h2{
+    padding: 20px;
+    text-align: center;
+
+}
+#hot_deals{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+.deal{
+    width: 50%;
+    height: 400px;
+    background-color: gray;
+    border: 2px solid black;
+    margin-left: 2PX;
+}
+.deal h3{
+    padding-top: 40%;
+    text-align: center; 
+}
+
+/* foter  */
+footer{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    padding: 5px 4px;
+    background-color: rgb(177, 177, 177);
+
+}
+.foot{
+    padding: 20px;
+    width: 25%;
+}
+.foot li{
+    padding: 2px;
+    list-style-type: none;
+}
+#copyright{
+    padding: 20px;
+    background-color: gray;
+
+}
+
+/* product page banner */
+.product_banner{
+    padding: 50px;
+    background-color: rgb(177, 177, 177);
+
+}
+.product_banner h1{
+    width: 10%;
+    margin: auto;
+}
+/* all products */
+.products{
+    margin: 10px 0px;
+}
+.all-product{
+    padding: 20px;
+}
+.all-product h2{
+    width: 15%;
+    margin: auto;
+}
+.product-row{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+/* products by categories */
+.product_categories{
+    padding: 20px;
+
+}
+.product_categories h2{
+    width: 25%;
+    margin: auto; 
+}
+
+.categories-row{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.category{
+    width: 25%;
+    background-color: gray;
+    height: 200px;
+    border: 2px solid black;
+    margin-left: 10PX;
+    margin-right: 10PX;
+
 }
