@@ -4,70 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Contact Us</title>
     
-    <style>
-        * {
-          box-sizing: border-box;
-        }
-        
-        body {
-          font-family: Arial, Helvetica, sans-serif;
-        }
-        
-        /* Style the header */
-        header {
-          background-color: #666;
-          padding: 20px;
-          text-align: center;
-          font-size: 35px;
-          color: white;
-        }
-        
-        /* Create two columns/boxes that floats next to each other */
-        nav {
-          float: center;
-          width: 30%;
-          height: 500px; /* only for demonstration, should be removed */
-          background: #ccc;
-          padding: 20px;
-        }
-        
-        
-        /* Clear floats after the columns */
-        section::after {
-          content: "";
-          display: table;
-          clear: both;
-        }
-        
-        /* Style the footer */
-        footer {
-          background-color: #777;
-          padding: 40px;
-          text-align: center;
-          color: white;
-        }
-        
-        /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-        @media (max-width: 600px) {
-          nav, article {
-            width: 100%;
-            height: auto;
-          }
-        }
-        </style>
+   
 </head>
 <body>
-    <header>
-        <h2>Banner</h2>
-      </header>
-      <div>
-            <h2>Contact Us</h2>
 
+      <!-- navigation -->
+    <div class="navigation">
+        <div class="logo">logo</div>
+    
+        <div class="nav">
+            <nav>
+                <ul>
+                    <a href="#"><li>Product</li></a>
+                    <a href="#"> <li>About</li></a>
+                    <a href="#"><li>Contact</li></a>
+                </ul>
+            </nav>
+        </div>
+        <div id="login">
+            <button>Login</button>
+        </div>
+        </div>
+
+      <h2 align="center">Contact Us</h2>
+        <div>
             <form align="center">
             <fieldset>
-                <legend>Drop your Query</legend>
+              <legend>Drop your Query</legend>
               <label>Name:</label>
               <input type="text"><br><br>
               <label>Email:</label>
@@ -81,8 +47,40 @@
               </fieldset>
             </form>   
         </div>
-    <footer>
-        <p>Footer</p>
+    
+        <footer>
+            <div class="foot">
+                <ul>
+                    <li>adress</li>
+                    <li>Phone</li>
+                    <li>email</li>
+                    <li>socials</li>
+                </ul>
+            </div>
+            <div class="foot">
+                <ul>
+                    <li>About Us</li>
+                    <li>Contact</li>
+                    <li>Product</li>
+                    <li>shop</li>
+                </ul>
+            </div>
+            <div class="foot">
+                <ul>
+                    <li>IMPORTANT LINKS</li>
+                    <li>Contact</li>
+                    <li>Product</li>
+                    <li>shop</li>
+                </ul>
+            </div>
+            <div class="foot">
+                <ul>
+                    <li>dxashdush</li>
+                    <li>cmdskcdsc</li>
+                    <li>v fvfdv</li>
+                    <li>shop</li>
+                </ul>
+            </div>
       </footer>    
 </body>
 </html>
