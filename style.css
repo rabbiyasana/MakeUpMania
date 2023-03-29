@@ -3,9 +3,10 @@
 }
 /* navigation */
 .navigation{
-    background-color: gray;
+    background-color: #FBECF1;
     padding: 15px 10px;
     display: flex;
+    align-items: center;
     direction: row;
 }
 .logo{
@@ -15,9 +16,17 @@
     width: 60%;
     padding: 10px;
 }
+/* login button */
 #login{
     width: 20%;
 }
+#login #btn-login{
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #ffffff;
+
+}
+
 nav > ul {
     display: flex;
     flex-direction: row;
@@ -52,6 +61,7 @@ nav a {
     display: flex;
     flex-direction: row;
     box-sizing: border-box;
+    align-items: center;
 }
 .product{
     width: 25%;
