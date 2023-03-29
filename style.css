@@ -241,50 +241,66 @@ footer{
 .product-quantity {
   padding-top: 25px;
 }
+
 /* customer dashboard */
 
-
-    #admin-main{
-        display: flex;
-    }
-
-    .total{
-        width: 50%;
-        background-color: #616A6B ;
-        box-sizing: border-box;
-        border: 1px solid black;
-        margin: 5px;
-        padding: 3%3;
-
-        
-    }
-
- #table{
-    display: flex;
-
- }
- table{
-    width: 100%;
- }
- .pro{
-    width: 30%;
-   background-color: #7B7D7D;
-    box-sizing: border-box;
-    border: 1px solid black;
-    margin: 5px;
-    padding: 3%;
-
+#container{
+    width:1280px;
+    height: 600px;
     
 }
-th{
-    width: 20%;
-    box-sizing: border-box;
-    background-color: lightgray;
-    padding: 5%;
+
+.sec1{
+    width: 400px;
+    height: 500px;
+    
+    margin-top: 30px;
+    margin-left:30px;
 }
-td{
-    width: 20%;
-    box-sizing: border-box;
-    background-color:lightgray ;
-    padding: 5%;
+table{
+    border: 1px solid black;
 }
+.tab1{
+    border: 2px solid grey;
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 290px;
+    height: 250px;
+    border-collapse:collapse;
+}
+
+.sec2{
+    width: 740px;
+    height: 300px;
+    
+    margin-top: -280px;
+    margin-left: 480px;
+}
+.p2{
+   display: flex;
+   justify-content:space-around ;
+   border: 2px solid green;
+   height: 40px;
+   padding: 10px;
+  
+}
+.sec3{
+    width: 740px;
+    height: 300px;
+    
+    margin-left: 480px;
+    margin-top: 50px;
+}
+h3{
+    margin-left: 24px;
+}
+
+.tab2, th, td{
+     border:1px solid black;
+    margin-left: 30px;
+    width: 430px;
+    height: 20px;
+    border-collapse:collapse;
+}
+
+
