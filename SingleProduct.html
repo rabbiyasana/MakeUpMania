@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.js"
+      integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(function () {
+        $("#header").load("header.html");
+        $("#footer").load("footer.html");
+      });
+    </script>
+  </head>
+  <body>
+    <div id="header"></div>
+    <!-- Product page -->
+    <div class="product">This is my Single Product Page</div>
+    <div class="product-main">
+      <div class="product-img">
+        This is my Product
+        <img alt="Product Image" />
+      </div>
+      <div class="product-info">
+        <div class="product-title">
+          <h3>Product Title</h3>
+        </div>
+        <div class="product-description">
+          <h3>Product Description</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia iste
+            quod vel expedita. Error, esse quasi ad aliquam, labore dolore a
+            molestias veritatis neque assumenda ipsum delectus voluptate
+            ratione, inventore atque facere ipsa illum? Ipsa debitis aliquam
+            quae sint quasi officiis obcaecati maxime, quaerat dignissimos, at
+            nam unde, quia cum.
+          </p>
+        </div>
+        <div class="product-quantity">
+          <label>Quantity:</label>
+
+          <input type="number" name="quantity" min="1" />
+          <input type="submit" />
+        </div>
+        <div class="product-button">
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    <div id="footer"></div>
+  </body>
+</html>

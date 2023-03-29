@@ -1,166 +1,76 @@
-*{
-    margin: 0;
-}
-/* navigation */
-.navigation{
-    background-color: gray;
-    padding: 15px 10px;
-    display: flex;
-    direction: row;
-}
-.logo{
-    width: 20%;
-}
-.nav{
-    width: 60%;
-    padding: 10px;
-}
-#login{
-    width: 20%;
-}
-nav > ul {
-    display: flex;
-    flex-direction: row;
-    
-}
-nav li {
-    list-style-type: none;
-    padding: 0px 5px;
-}
-nav a {
-    text-decoration: none;
-    color: black;
+/* about-us */
 
+.aboutus {
+  width: 100%;
+  height: 200px;
+  background-color: grey;
+  position: relative;
+  margin-top: 2px;
+}
+.aboutus-heading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  margin: auto;
+}
+.aboutus-description p {
+  padding: 25px;
 }
 
-/* home page carousel */
-#carousel{
-    height: 400px;
-    background-color: rgb(177, 177, 177);
-
-}
-#carousel > h1 {
-    padding-top: 15%;
-    margin-left: 45%;
-}
-/* home page feature products */
-.feature_product{
-    padding: 20px;
-    text-align: center;
-}
-#feature_product{
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-}
-.product{
-    width: 25%;
-    background-color: gray;
-    height: 200px;
-    border: 2px solid black;
-    margin-left: 10PX;
-    margin-right: 10PX;
-
-}
-.product h3{
-    padding-top: 40%;
-    text-align: center;
+.aboutus-vision {
+  padding: 25px;
 }
 
-/* hot deals */
-.deals h2{
-    padding: 20px;
-    text-align: center;
-
-}
-#hot_deals{
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-}
-.deal{
-    width: 50%;
-    height: 400px;
-    background-color: gray;
-    border: 2px solid black;
-    margin-left: 2PX;
-}
-.deal h3{
-    padding-top: 40%;
-    text-align: center; 
+.aboutus-mission {
+  padding: 25px;
 }
 
-/* foter  */
-footer{
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-    padding: 5px 4px;
-    background-color: rgb(177, 177, 177);
-
+.aboutus-heading h2 {
+  padding-top: 60px;
 }
-.foot{
-    padding: 20px;
-    width: 25%;
-}
-.foot li{
-    padding: 2px;
-    list-style-type: none;
-}
-#copyright{
-    padding: 20px;
-    background-color: gray;
-
+.aboutus-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-/* product page banner */
-.product_banner{
-    padding: 50px;
-    background-color: rgb(177, 177, 177);
-
-}
-.product_banner h1{
-    width: 10%;
-    margin: auto;
-}
-/* all products */
-.products{
-    margin: 10px 0px;
-}
-.all-product{
-    padding: 20px;
-}
-.all-product h2{
-    width: 15%;
-    margin: auto;
-}
-.product-row{
-    display: flex;
-    flex-direction: row;
-    margin-top: 20px;
+.product-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-/* products by categories */
-.product_categories{
-    padding: 20px;
-
+.product-img {
+  width: 45%;
+  height: 450px;
+  background-color: grey;
+  border: 2px solid black;
+  padding: 20px;
 }
-.product_categories h2{
-    width: 25%;
-    margin: auto; 
+.product-info {
+  width: 45%;
+  height: 450px;
+  background-color: grey;
+  border: 2px solid black;
+  margin: 30px;
+  padding: 20px;
 }
 
-.categories-row{
-    display: flex;
-    flex-direction: row;
-    margin-top: 20px;
+.product-title {
+  padding: 25px;
 }
-.category{
-    width: 25%;
-    background-color: gray;
-    height: 200px;
-    border: 2px solid black;
-    margin-left: 10PX;
-    margin-right: 10PX;
 
+.product-description p {
+  padding-top: 25px;
+}
+
+.product-button {
+  padding-top: 25px;
+}
+
+.product-quantity {
+  padding-top: 25px;
 }
