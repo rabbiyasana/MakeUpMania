@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact Us</title>
+    <script
+    src="https://code.jquery.com/jquery-2.2.4.js"
+    integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+    crossorigin="anonymous"></script>
+  <script>
+  $(function(){
+    $('#header').load('header.html');
+    $('#footer').load('footer.html');
+
+  });
+  </script>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+      <!-- navigation -->
+      <div id="header"></div>
+
+      <!--form-->
+      <h2 align="center">Contact Us</h2>
+        <div>
+            <form align="center">
+              <fieldset>
+                <legend>Drop your Query</legend>
+                <label>Name:</label>
+                <input type="text"><br><br>
+                <label>Email:</label>
+                <input type="email"><br><br>
+                <label>Phone:</label>
+                <input type="text"><br><br>
+                <label>Message:</label>
+                <textarea  rows="5" cols="40">
+                </textarea><br><br>
+                <input type="submit" value="Submit">
+              </fieldset>
+            </form>   
+        </div>
+    <!--form end-->
+
+    <div id="footer"></div>
+</body>
+</html>
