@@ -164,7 +164,7 @@ footer{
     margin-right: 10PX;
 
 }
-/* about-us */
+/* about-us page */
 
 .aboutus {
   width: 100%;
@@ -197,6 +197,7 @@ footer{
 .aboutus-heading h2 {
   padding-top: 60px;
 }
+/* single product page */
 .aboutus-main {
   display: flex;
   justify-content: center;
@@ -239,4 +240,51 @@ footer{
 
 .product-quantity {
   padding-top: 25px;
+}
+/* customer dashboard */
+
+
+    #admin-main{
+        display: flex;
+    }
+
+    .total{
+        width: 50%;
+        background-color: #616A6B ;
+        box-sizing: border-box;
+        border: 1px solid black;
+        margin: 5px;
+        padding: 3%3;
+
+        
+    }
+
+ #table{
+    display: flex;
+
+ }
+ table{
+    width: 100%;
+ }
+ .pro{
+    width: 30%;
+   background-color: #7B7D7D;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 3%;
+
+    
+}
+th{
+    width: 20%;
+    box-sizing: border-box;
+    background-color: lightgray;
+    padding: 5%;
+}
+td{
+    width: 20%;
+    box-sizing: border-box;
+    background-color:lightgray ;
+    padding: 5%;
 }
