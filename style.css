@@ -1,55 +1,53 @@
-*{
-    margin: 0;
+* {
+  margin: 0;
 }
 /* navigation */
+
 .navigation{
     background-color: #EFD7E5;
     padding: 15px 50px;
     display: flex;
     align-items:center;
     justify-content: space-around;
-
     direction: row;
-    /* padding: 10px 50px; */
 }
-.logo{
-    width: 20%;
+.logo {
+  width: 20%;
 }
-.nav{
-    width: 60%;
-    padding: 10px;
+.nav {
+  width: 60%;
+  padding: 10px;
 }
 /* login button */
-#login{
-    width: 20%;
+#login {
+  width: 20%;
 }
-#login #btn-login{
+#login #btn-login {
   padding: 10px 20px;
   border-radius: 5px;
   background-color: #ffffff;
-  border: none;
 
+  border: none;
 }
 #login #btn-login:hover{
     background-color: #E7BDD5;
 }
 
 nav > ul {
-    display: flex;
-    flex-direction: row;
-    
+  display: flex;
+  flex-direction: row;
 }
 nav li {
-    list-style-type: none;
-    padding: 0px 5px;
+  list-style-type: none;
+  padding: 0px 5px;
 }
 nav a {
-    text-decoration: none;
-    color: black;
-
+  text-decoration: none;
+  color: black;
 }
 
 /* home page carousel */
+
 #carousel{
     height: 100vh;
     background-color: rgb(177, 177, 177);
@@ -84,28 +82,29 @@ transition: transform .2s;
 }
 
 /* hot deals */
-.deals h2{
-    padding: 20px;
-    text-align: center;
+.deals h2 {
+  padding: 20px;
+  text-align: center;
+}
+#hot_deals {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
 
-}
-#hot_deals{
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-}
 .deal{
     width: 50%;
     margin-left: 2PX;
 }
-.deal h3{
-    padding-top: 40%;
-    text-align: center; 
+.deal h3 {
+  padding-top: 40%;
+  text-align: center;
 }
 #hot_deals .deal:hover{
     transform: scale(1.1);
     transition: transform .2s;  
 }
+
 
 /* foter  */
 footer{
@@ -133,22 +132,25 @@ footer{
 .product_banner h1{
     width: 10%;
     margin: auto;
+
 }
 /* all products */
-.products{
-    margin: 10px 0px;
+.products {
+  margin: 10px 0px;
 }
-.all-product{
-    padding: 20px;
+.all-product {
+  padding: 20px;
 }
+
 .all-product h2{
     padding: 20px 0px;
    text-align: center;
+
 }
-.product-row{
-    display: flex;
-    flex-direction: row;
-    margin-top: 20px;
+.product-row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
 }
 
 .product-row .product{
@@ -160,10 +162,10 @@ footer{
 transition: transform .2s;
 }
 /* products by categories */
-.product_categories{
-    padding: 20px;
-
+.product_categories {
+  padding: 20px;
 }
+
 .product_categories h2{
  text-align: center;
 }
@@ -178,7 +180,6 @@ transition: transform .2s;
    
     margin-left: 10PX;
     margin-right: 10PX;
-
 }
 .category h4{
     text-align: center;
@@ -188,42 +189,71 @@ transition: transform .2s;
 
 .aboutus {
   width: 100%;
-  height: 200px;
-  background-color: grey;
+  height: 550px;
   position: relative;
-  margin-top: 2px;
 }
 .aboutus-heading {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 200px;
+  background-image: url(/images/aboutus.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 100%;
+  height: 100%;
   margin: auto;
 }
+
+.aboutus-heading h1 {
+  font-size: 40px !important;
+  position: absolute;
+  top: 250px;
+  left: 200px;
+  bottom: 0;
+  right: 0;
+}
+
 .aboutus-description p {
-  padding: 25px;
+  padding: 30px;
+  margin: auto;
+  width: 50%;
 }
 
-.aboutus-vision {
-  padding: 25px;
-}
-
-.aboutus-mission {
-  padding: 25px;
-}
-
-.aboutus-heading h2 {
-  padding-top: 60px;
-}
-/* single product page */
 .aboutus-main {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.aboutus-main .aboutus-vision {
+  padding: 20px;
+  width: 25%;
+}
+
+.aboutus-main .aboutus-mission {
+  padding: 20px;
+  width: 25%;
+}
+
+/* .aboutus-team-main {
+  height: 550px;
+}
+
+.aboutus-team-main .aboutus-team {
+  background-image: url(/images/team.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.aboutus-team h2 {
+  padding-top: 15px;
+  font-size: 40px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* single product page */
 .product-main {
   display: flex;
   justify-content: center;
@@ -264,63 +294,61 @@ transition: transform .2s;
 
 /* customer dashboard */
 
-#container{
-    width:1280px;
-    height: 600px;
-    
+#container {
+  width: 1280px;
+  height: 600px;
 }
 
-.sec1{
-    width: 400px;
-    height: 500px;
-    
-    margin-top: 30px;
-    margin-left:30px;
+.sec1 {
+  width: 400px;
+  height: 500px;
+
+  margin-top: 30px;
+  margin-left: 30px;
 }
-table{
-    border: 1px solid black;
+table {
+  border: 1px solid black;
 }
-.tab1{
-    border: 2px solid grey;
-    margin-top: 40px;
-    margin-left: 20px;
-    width: 290px;
-    height: 250px;
-    border-collapse:collapse;
+.tab1 {
+  border: 2px solid grey;
+  margin-top: 40px;
+  margin-left: 20px;
+  width: 290px;
+  height: 250px;
+  border-collapse: collapse;
 }
 
-.sec2{
-    width: 740px;
-    height: 300px;
-    
-    margin-top: -280px;
-    margin-left: 480px;
+.sec2 {
+  width: 740px;
+  height: 300px;
+
+  margin-top: -280px;
+  margin-left: 480px;
 }
-.p2{
-   display: flex;
-   justify-content:space-around ;
-   border: 2px solid green;
-   height: 40px;
-   padding: 10px;
-  
+.p2 {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid green;
+  height: 40px;
+  padding: 10px;
 }
-.sec3{
-    width: 740px;
-    height: 300px;
-    
-    margin-left: 480px;
-    margin-top: 50px;
+.sec3 {
+  width: 740px;
+  height: 300px;
+
+  margin-left: 480px;
+  margin-top: 50px;
 }
-h3{
-    margin-left: 24px;
+h3 {
+  margin-left: 24px;
 }
 
-.tab2, th, td{
-     border:1px solid black;
-    margin-left: 30px;
-    width: 430px;
-    height: 20px;
-    border-collapse:collapse;
+.tab2,
+th,
+td {
+  border: 1px solid black;
+  margin-left: 30px;
+  width: 430px;
+  height: 20px;
+  border-collapse: collapse;
 }
-
-
