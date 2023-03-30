@@ -44,17 +44,14 @@ nav a {
 
 /* home page carousel */
 #carousel{
-    height: 400px;
+    height: 100vh;
     background-color: rgb(177, 177, 177);
 
-}
-#carousel > h1 {
-    padding-top: 15%;
-    margin-left: 45%;
 }
 /* home page feature products */
 .feature_product{
     padding: 20px;
+    height: 50px;
     text-align: center;
 }
 #feature_product{
@@ -63,19 +60,17 @@ nav a {
     box-sizing: border-box;
     align-items: center;
 }
-.product{
+.feature_product h2{
+    padding: 40px 10px;
+
+}
+#feature_product .product{
     width: 25%;
-    background-color: gray;
-    height: 200px;
-    border: 2px solid black;
     margin-left: 10PX;
     margin-right: 10PX;
 
 }
-.product h3{
-    padding-top: 40%;
-    text-align: center;
-}
+
 
 /* hot deals */
 .deals h2{
@@ -90,9 +85,6 @@ nav a {
 }
 .deal{
     width: 50%;
-    height: 400px;
-    background-color: gray;
-    border: 2px solid black;
     margin-left: 2PX;
 }
 .deal h3{
@@ -100,6 +92,28 @@ nav a {
     text-align: center; 
 }
 
+/* foter  */
+footer{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    padding: 5px 4px;
+    background-color: rgb(177, 177, 177);
+
+}
+.foot{
+    padding: 20px;
+    width: 25%;
+}
+.foot li{
+    padding: 2px;
+    list-style-type: none;
+}
+#copyright{
+    padding: 20px;
+    background-color: gray;
+
+}
 
 /* product page banner */
 .product_banner{
