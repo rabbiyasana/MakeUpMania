@@ -102,6 +102,10 @@ transition: transform .2s;
     padding-top: 40%;
     text-align: center; 
 }
+#hot_deals .deal:hover{
+    transform: scale(1.1);
+    transition: transform .2s;  
+}
 
 /* foter  */
 footer{
@@ -150,6 +154,10 @@ footer{
 .product-row .product{
     width: 25%;
     box-sizing: border-box;
+}
+.product-row .product:hover{
+    transform: scale(1.1);
+transition: transform .2s;
 }
 /* products by categories */
 .product_categories{
