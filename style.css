@@ -1,156 +1,146 @@
-*{
-    margin: 0;
+* {
+  margin: 0;
 }
 /* navigation */
-.navigation{
-    background-color: #FBECF1;
-    padding: 15px 10px;
-    display: flex;
-    align-items: center;
-    direction: row;
+.navigation {
+  background-color: #fbecf1;
+  padding: 15px 10px;
+  display: flex;
+  align-items: center;
+  direction: row;
 }
-.logo{
-    width: 20%;
+.logo {
+  width: 20%;
 }
-.nav{
-    width: 60%;
-    padding: 10px;
+.nav {
+  width: 60%;
+  padding: 10px;
 }
 /* login button */
-#login{
-    width: 20%;
+#login {
+  width: 20%;
 }
-#login #btn-login{
+#login #btn-login {
   padding: 10px 20px;
   border-radius: 5px;
   background-color: #ffffff;
-
 }
 
 nav > ul {
-    display: flex;
-    flex-direction: row;
-    
+  display: flex;
+  flex-direction: row;
 }
 nav li {
-    list-style-type: none;
-    padding: 0px 5px;
+  list-style-type: none;
+  padding: 0px 5px;
 }
 nav a {
-    text-decoration: none;
-    color: black;
-
+  text-decoration: none;
+  color: black;
 }
 
 /* home page carousel */
-#carousel{
-    height: 400px;
-    background-color: rgb(177, 177, 177);
-
+#carousel {
+  height: 400px;
+  background-color: rgb(177, 177, 177);
 }
 #carousel > h1 {
-    padding-top: 15%;
-    margin-left: 45%;
+  padding-top: 15%;
+  margin-left: 45%;
 }
 /* home page feature products */
-.feature_product{
-    padding: 20px;
-    text-align: center;
+.feature_product {
+  padding: 20px;
+  text-align: center;
 }
-#feature_product{
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-    align-items: center;
+#feature_product {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
 }
-.product{
-    width: 25%;
-    background-color: gray;
-    height: 200px;
-    border: 2px solid black;
-    margin-left: 10PX;
-    margin-right: 10PX;
-
+.product {
+  width: 25%;
+  background-color: gray;
+  height: 200px;
+  border: 2px solid black;
+  margin-left: 10px;
+  margin-right: 10px;
 }
-.product h3{
-    padding-top: 40%;
-    text-align: center;
+.product h3 {
+  padding-top: 40%;
+  text-align: center;
 }
 
 /* hot deals */
-.deals h2{
-    padding: 20px;
-    text-align: center;
-
+.deals h2 {
+  padding: 20px;
+  text-align: center;
 }
-#hot_deals{
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
+#hot_deals {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
 }
-.deal{
-    width: 50%;
-    height: 400px;
-    background-color: gray;
-    border: 2px solid black;
-    margin-left: 2PX;
+.deal {
+  width: 50%;
+  height: 400px;
+  background-color: gray;
+  border: 2px solid black;
+  margin-left: 2px;
 }
-.deal h3{
-    padding-top: 40%;
-    text-align: center; 
+.deal h3 {
+  padding-top: 40%;
+  text-align: center;
 }
-
 
 /* product page banner */
-.product_banner{
-    padding: 50px;
-    background-color: rgb(177, 177, 177);
-
+.product_banner {
+  padding: 50px;
+  background-color: rgb(177, 177, 177);
 }
-.product_banner h1{
-    width: 10%;
-    margin: auto;
+.product_banner h1 {
+  width: 10%;
+  margin: auto;
 }
 /* all products */
-.products{
-    margin: 10px 0px;
+.products {
+  margin: 10px 0px;
 }
-.all-product{
-    padding: 20px;
+.all-product {
+  padding: 20px;
 }
-.all-product h2{
-    width: 15%;
-    margin: auto;
+.all-product h2 {
+  width: 15%;
+  margin: auto;
 }
-.product-row{
-    display: flex;
-    flex-direction: row;
-    margin-top: 20px;
+.product-row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
 }
 
 /* products by categories */
-.product_categories{
-    padding: 20px;
-
+.product_categories {
+  padding: 20px;
 }
-.product_categories h2{
-    width: 25%;
-    margin: auto; 
+.product_categories h2 {
+  width: 25%;
+  margin: auto;
 }
 
-.categories-row{
-    display: flex;
-    flex-direction: row;
-    margin-top: 20px;
+.categories-row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
 }
-.category{
-    width: 25%;
-    background-color: gray;
-    height: 200px;
-    border: 2px solid black;
-    margin-left: 10PX;
-    margin-right: 10PX;
-
+.category {
+  width: 25%;
+  background-color: gray;
+  height: 200px;
+  border: 2px solid black;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 /* about-us page */
 
@@ -161,7 +151,7 @@ nav a {
   position: relative;
   margin-top: 2px;
 }
-.aboutus-heading {
+.aboutus .aboutus-heading {
   position: absolute;
   top: 0;
   left: 0;
@@ -232,63 +222,61 @@ nav a {
 
 /* customer dashboard */
 
-#container{
-    width:1280px;
-    height: 600px;
-    
+#container {
+  width: 1280px;
+  height: 600px;
 }
 
-.sec1{
-    width: 400px;
-    height: 500px;
-    
-    margin-top: 30px;
-    margin-left:30px;
+.sec1 {
+  width: 400px;
+  height: 500px;
+
+  margin-top: 30px;
+  margin-left: 30px;
 }
-table{
-    border: 1px solid black;
+table {
+  border: 1px solid black;
 }
-.tab1{
-    border: 2px solid grey;
-    margin-top: 40px;
-    margin-left: 20px;
-    width: 290px;
-    height: 250px;
-    border-collapse:collapse;
+.tab1 {
+  border: 2px solid grey;
+  margin-top: 40px;
+  margin-left: 20px;
+  width: 290px;
+  height: 250px;
+  border-collapse: collapse;
 }
 
-.sec2{
-    width: 740px;
-    height: 300px;
-    
-    margin-top: -280px;
-    margin-left: 480px;
+.sec2 {
+  width: 740px;
+  height: 300px;
+
+  margin-top: -280px;
+  margin-left: 480px;
 }
-.p2{
-   display: flex;
-   justify-content:space-around ;
-   border: 2px solid green;
-   height: 40px;
-   padding: 10px;
-  
+.p2 {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid green;
+  height: 40px;
+  padding: 10px;
 }
-.sec3{
-    width: 740px;
-    height: 300px;
-    
-    margin-left: 480px;
-    margin-top: 50px;
+.sec3 {
+  width: 740px;
+  height: 300px;
+
+  margin-left: 480px;
+  margin-top: 50px;
 }
-h3{
-    margin-left: 24px;
+h3 {
+  margin-left: 24px;
 }
 
-.tab2, th, td{
-     border:1px solid black;
-    margin-left: 30px;
-    width: 430px;
-    height: 20px;
-    border-collapse:collapse;
+.tab2,
+th,
+td {
+  border: 1px solid black;
+  margin-left: 30px;
+  width: 430px;
+  height: 20px;
+  border-collapse: collapse;
 }
-
-
