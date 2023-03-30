@@ -146,42 +146,71 @@ nav a {
 
 .aboutus {
   width: 100%;
-  height: 200px;
-  background-color: grey;
+  height: 550px;
   position: relative;
-  margin-top: 2px;
 }
-.aboutus .aboutus-heading {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 200px;
+.aboutus-heading {
+  background-image: url(/images/aboutus.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 100%;
+  height: 100%;
   margin: auto;
 }
+
+.aboutus-heading h1 {
+  font-size: 40px !important;
+  position: absolute;
+  top: 25git 0px;
+  left: 200px;
+  bottom: 0;
+  right: 0;
+}
+
 .aboutus-description p {
-  padding: 25px;
+  padding: 30px;
+  margin: auto;
+  width: 50%;
 }
 
-.aboutus-vision {
-  padding: 25px;
-}
-
-.aboutus-mission {
-  padding: 25px;
-}
-
-.aboutus-heading h2 {
-  padding-top: 60px;
-}
-/* single product page */
 .aboutus-main {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.aboutus-main .aboutus-vision {
+  padding: 20px;
+  width: 25%;
+}
+
+.aboutus-main .aboutus-mission {
+  padding: 20px;
+  width: 25%;
+}
+
+/* .aboutus-team-main {
+  height: 550px;
+}
+
+.aboutus-team-main .aboutus-team {
+  background-image: url(/images/team.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.aboutus-team h2 {
+  padding-top: 15px;
+  font-size: 40px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* single product page */
 .product-main {
   display: flex;
   justify-content: center;
