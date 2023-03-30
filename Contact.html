@@ -25,22 +25,35 @@
       <div id="header"></div>
 
       <!--form-->
-      <h2 align="center">Contact Us</h2>
-        <div>
-            <form align="center">
-              <fieldset>
-                <legend>Drop your Query</legend>
-                <label>Name:</label>
-                <input type="text"><br><br>
-                <label>Email:</label>
-                <input type="email"><br><br>
-                <label>Phone:</label>
-                <input type="text"><br><br>
+      <h2 class="form_h2" >Contact Us</h2><br>
+      <p class="form_p">We’re happy to help! <br>
+        If you have order status related questions,<br>
+        check our Order Tracking page. <br>
+        If you have brand or website questions,<br>
+        check out our FAQ page.<br>
+        If you still need help,<br>
+        we’ll respond to your message below.<br><br></p>
+        <div class="contact_form">
+            <form >
+                
+                <label class="form_label">Name:</label><br>
+                <input class="form_input" type="text"><br><br>
+                <label class="form_label">Email:</label><br>
+                <input class="form_input" type="email"><br><br>
+                <label class="form_label">Phone:</label><br>
+                <input class="form_input" type="text"><br><br>
+                <label for="issue">How can we help:</label>
+                <select id="form_issue" name="issue">
+                <option value="track">tracking issue</option>
+                <option value="damage">damage product</option>
+                <option value="privacy">data privacy</option>
+                <option value="dandt">delivery and tracking issue</option>
+                </select><br><br>
                 <label>Message:</label>
                 <textarea  rows="5" cols="40">
                 </textarea><br><br>
                 <input type="submit" value="Submit">
-              </fieldset>
+             
             </form>   
         </div>
     <!--form end-->
