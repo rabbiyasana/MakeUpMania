@@ -249,56 +249,82 @@ footer{
     height: 600px;
     
 }
+#banner-customer{
+    width:1480px ;
+    height:50px ;
+    text-align: center;
+       margin-top: 90px;
+    border: 2px solid grey;
+    padding-top: 15px;
 
+}
 .sec1{
     width: 400px;
     height: 500px;
     
-    margin-top: 30px;
+    margin-top: 80px;
     margin-left:30px;
 }
-table{
+.sec1 table{
     border: 1px solid black;
+    text-align: left;
+   
 }
-.tab1{
+.sec1 .tab1{
     border: 2px solid grey;
     margin-top: 40px;
     margin-left: 20px;
     width: 290px;
-    height: 250px;
+    height: 170px;
     border-collapse:collapse;
+    
+    
 }
 
+.sec1 #tab1dash {
+    background-color: rgb(158, 154, 154);
+}
 .sec2{
     width: 740px;
     height: 300px;
-    
-    margin-top: -280px;
+    margin-top: -170px;
     margin-left: 480px;
 }
-.p2{
+.sec2 .p2 .imgtick{
+    width: 35px;
+    margin-top: -6px;
+    margin-left: 100px;
+}
+.sec2 .p2{
    display: flex;
-   justify-content:space-around ;
+   justify-content:space-around;
    border: 2px solid green;
-   height: 40px;
+   height: 20px;
+      margin-top: 15px;
    padding: 10px;
+   text-align: left;
   
+  
+}
+.sec2 a:visited{
+   color: green;
 }
 .sec3{
     width: 740px;
     height: 300px;
     
     margin-left: 480px;
-    margin-top: 50px;
+    margin-top: 5px;
 }
-h3{
+.sec3 h3{
     margin-left: 24px;
+
 }
 
-.tab2, th, td{
+.sec3 .tab2, th, td{
      border:1px solid black;
     margin-left: 30px;
-    width: 430px;
+    width: 600px;
     height: 20px;
     border-collapse:collapse;
 }
