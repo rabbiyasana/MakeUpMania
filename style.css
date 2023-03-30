@@ -2,12 +2,14 @@
   margin: 0;
 }
 /* navigation */
-.navigation {
-  background-color: #fbecf1;
-  padding: 15px 10px;
-  display: flex;
-  align-items: center;
-  direction: row;
+
+.navigation{
+    background-color: #EFD7E5;
+    padding: 15px 50px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    direction: row;
 }
 .logo {
   width: 20%;
@@ -24,6 +26,11 @@
   padding: 10px 20px;
   border-radius: 5px;
   background-color: #ffffff;
+
+  border: none;
+}
+#login #btn-login:hover{
+    background-color: #E7BDD5;
 }
 
 nav > ul {
@@ -40,36 +47,38 @@ nav a {
 }
 
 /* home page carousel */
-#carousel {
-  height: 400px;
-  background-color: rgb(177, 177, 177);
-}
-#carousel > h1 {
-  padding-top: 15%;
-  margin-left: 45%;
+
+#carousel{
+    height: 100vh;
+    background-color: rgb(177, 177, 177);
+
 }
 /* home page feature products */
-.feature_product {
-  padding: 20px;
-  text-align: center;
+.feature_product{
+    padding: 20px;
+    height: 50px;
+    text-align: center;
 }
-#feature_product {
-  display: flex;
-  flex-direction: row;
-  box-sizing: border-box;
-  align-items: center;
+#feature_product{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    align-items: center;
+    margin-top: 20px;
 }
-.product {
-  width: 25%;
-  background-color: gray;
-  height: 200px;
-  border: 2px solid black;
-  margin-left: 10px;
-  margin-right: 10px;
+.feature_product h2{
+    padding: 40px 10px;
+
 }
-.product h3 {
-  padding-top: 40%;
-  text-align: center;
+#feature_product .product{
+    width: 25%;
+    margin-left: 10PX;
+    margin-right: 10PX;
+}
+#feature_product .product:hover{
+box-shadow:  0 3px 10px #E7BDD5;
+transform: scale(1.1);
+transition: transform .2s;
 }
 
 /* hot deals */
@@ -82,26 +91,48 @@ nav a {
   flex-direction: row;
   box-sizing: border-box;
 }
-.deal {
-  width: 50%;
-  height: 400px;
-  background-color: gray;
-  border: 2px solid black;
-  margin-left: 2px;
+
+.deal{
+    width: 50%;
+    margin-left: 2PX;
 }
 .deal h3 {
   padding-top: 40%;
   text-align: center;
 }
+#hot_deals .deal:hover{
+    transform: scale(1.1);
+    transition: transform .2s;  
+}
+
+
+/* foter  */
+footer{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    padding: 5px 4px;
+   
+
+}
+.foot{
+    padding: 20px;
+    width: 25%;
+}
+.foot li{
+    padding: 2px;
+    list-style-type: none;
+}
+#copyright{
+    padding: 20px;
+
+}
 
 /* product page banner */
-.product_banner {
-  padding: 50px;
-  background-color: rgb(177, 177, 177);
-}
-.product_banner h1 {
-  width: 10%;
-  margin: auto;
+.product_banner h1{
+    width: 10%;
+    margin: auto;
+
 }
 /* all products */
 .products {
@@ -110,9 +141,11 @@ nav a {
 .all-product {
   padding: 20px;
 }
-.all-product h2 {
-  width: 15%;
-  margin: auto;
+
+.all-product h2{
+    padding: 20px 0px;
+   text-align: center;
+
 }
 .product-row {
   display: flex;
@@ -120,27 +153,37 @@ nav a {
   margin-top: 20px;
 }
 
+.product-row .product{
+    width: 25%;
+    box-sizing: border-box;
+}
+.product-row .product:hover{
+    transform: scale(1.1);
+transition: transform .2s;
+}
 /* products by categories */
 .product_categories {
   padding: 20px;
 }
-.product_categories h2 {
-  width: 25%;
-  margin: auto;
+
+.product_categories h2{
+ text-align: center;
 }
 
-.categories-row {
-  display: flex;
-  flex-direction: row;
-  margin-top: 20px;
+.categories-row{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
 }
-.category {
-  width: 25%;
-  background-color: gray;
-  height: 200px;
-  border: 2px solid black;
-  margin-left: 10px;
-  margin-right: 10px;
+.category{
+    width: 25%;
+   
+    margin-left: 10PX;
+    margin-right: 10PX;
+}
+.category h4{
+    text-align: center;
+    padding: 15px 0px;
 }
 /* about-us page */
 
