@@ -100,28 +100,6 @@ nav a {
     text-align: center; 
 }
 
-/* foter  */
-footer{
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-    padding: 5px 4px;
-    background-color: rgb(177, 177, 177);
-
-}
-.foot{
-    padding: 20px;
-    width: 25%;
-}
-.foot li{
-    padding: 2px;
-    list-style-type: none;
-}
-#copyright{
-    padding: 20px;
-    background-color: gray;
-
-}
 
 /* product page banner */
 .product_banner{
