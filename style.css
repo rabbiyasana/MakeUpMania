@@ -562,6 +562,38 @@ hr{
     text-transform: lowercase; 
 }
 
+
+/* foter  */
+footer{
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  padding: 5px 4px;
+  background-color: #EFD7E5;
+
+}
+hr{
+  margin:0px
+}
+.foot{
+  padding: 20px;
+  width: 25%;
+}
+.foot li{
+  padding: 2px;
+  list-style-type: none;
+}
+#copyright{
+  padding: 20px;
+  background-color: #e7bdd5;
+
+}
+.foot a{
+  text-decoration: none;
+  color: #000;
+}
+
+
 .form_input{
     border: none;
     width: 50%;
@@ -605,3 +637,4 @@ hr{
     font-size: 15px;
     height: 2.5rem;
 }
+
