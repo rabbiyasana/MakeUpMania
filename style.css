@@ -452,24 +452,10 @@ hr{
     text-transform: lowercase; 
 }
 
-
-/* foter  */
 hr{
   margin:0px
 }
-.foot{
-  padding: 20px;
-  width: 25%;
-}
-.foot li{
-  padding: 2px;
-  list-style-type: none;
-}
-#copyright{
-  padding: 20px;
-  background-color: #e7bdd5;
 
-}
 .foot a{
   text-decoration: none;
   color: #000;
