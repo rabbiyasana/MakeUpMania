@@ -6,7 +6,9 @@
     <div class="container">
     <nav class="navbar navbar-expand-lg navigation-bg">
     <div class="container-fluid">
-      <img src="images/logo.webp" alt="" srcset="" />
+     <div class="mx-4">
+     <img src="images/logo.webp" alt="" srcset="" />
+     </div>
       <button
         class="navbar-toggler"
         type="button"
@@ -37,8 +39,8 @@
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
-        </ul>
-        <form class="d-flex">
+          <li class="nav-item">
+          <form class="d-flex">
           <input
             class="form-control me-2"
             type="search"
@@ -49,6 +51,9 @@
             Search
           </button>
         </form>
+        </li>
+        </ul>
+       
       </div>
     </div>
    </nav>
