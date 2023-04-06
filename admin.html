@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -10,58 +10,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
     
     <meta name="msapplication-tap-highlight" content="no">
+    <link rel="stylesheet" href="admin.css">
 <link href="https://demo.dashboardpack.com/architectui-html-free/main.css" rel="stylesheet">
-    <style>
-        #admin-main {
-            display: flex;
-        }
-
-        .total {
-            width: 50%;
-            background-color: #616A6B;
-            box-sizing: border-box;
-            border: 1px solid black;
-            margin: 5px;
-            padding: 3%3;
-
-
-        }
-
-        #table {
-            display: flex;
-
-        }
-
-        table {
-            width: 100%;
-        }
-
-        .pro {
-            width: 30%;
-            background-color: #7B7D7D;
-            box-sizing: border-box;
-            border: 1px solid black;
-            margin: 5px;
-            padding: 3%;
-
-
-        }
-
-        th {
-            width: 20%;
-            box-sizing: border-box;
-            background-color: lightgray;
-            padding: 5%;
-        }
-
-        td {
-            width: 20%;
-            box-sizing: border-box;
-            background-color: lightgray;
-            padding: 5%;
-        }
-    </style>
     <script src="https://code.jquery.com/jquery-2.2.4.js"
+    
         integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
     <script>
         $(function () {
@@ -79,7 +31,8 @@
     <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header">
         <div class="app-header header-shadow">
             <div class="app-header__logo">
-                <div class="logo-src"></div>
+
+                <div class="logo"><img src="images/logo.png"  ></div>
                 <div class="header__pane ml-auto">
                     <div>
                         <button type="button" class="hamburger close-sidebar-btn hamburger--elastic" data-class="closed-sidebar">
@@ -292,7 +245,7 @@
                         </div>
                         <h3 class="themeoptions-heading">
                             <div>Sidebar Options</div>
-                            <button type="button" class="btn-pill btn-shadow btn-wide ml-auto btn btn-focus btn-sm switch-sidebar-cs-class" data-class="">
+                            <button type="button" class="btn-pill btn-shadow btn-wide ml-auto btn btn-focus btn-sm switch-sidebar-cs-class" data-class="" >
                                 Restore Default
                             </button>
                         </h3>
@@ -443,134 +396,11 @@
                                 <li class="app-sidebar__heading">Dashboard</li>
                                 
                                 <li class="app-sidebar__heading">Products</li>
-                                <li>
-                                    
-                                    <ul>
-                                    
-                                        <li>
-                                            <a href="elements-badges-labels.html">
-                                                <i class="metismenu-icon">
-                                                </i>Face Serum
-                                        </li>
-                                        <li>
-                                            <a href="elements-cards.html">
-                                                <i class="metismenu-icon">
-                                                </i>Lipsticks
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="elements-list-group.html">
-                                                <i class="metismenu-icon">
-                                                </i>
-                                        </li>
-                                        <li>
-                                            <a href="elements-navigation.html">
-                                                <i class="metismenu-icon">
-                                                </i>Navigation Menus
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="elements-utilities.html">
-                                                <i class="metismenu-icon">
-                                                </i>Utilities
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="metismenu-icon pe-7s-car"></i>
-                                        Components
-                                        <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i>
-                                    </a>
-                                    <ul>
-                                        <li>
-                                            <a href="components-tabs.html">
-                                                <i class="metismenu-icon">
-                                                </i>Tabs
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="components-accordions.html">
-                                                <i class="metismenu-icon">
-                                                </i>Accordions
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="components-notifications.html">
-                                                <i class="metismenu-icon">
-                                                </i>Notifications
-                                            </a>
-                                        </li>
-                                        
-                                        <li>
-                                            <a href="components-progress-bar.html">
-                                                <i class="metismenu-icon">
-                                                </i>Progress Bar
-                                            </a>
-                                        </li>
-                                        
-                                        <li>
-                                            <a href="components-carousel.html">
-                                                <i class="metismenu-icon">
-                                                </i>Carousel
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="components-calendar.html">
-                                                <i class="metismenu-icon">
-                                                </i>Calendar
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="components-pagination.html">
-                                                <i class="metismenu-icon">
-                                                </i>Pagination
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="components-scrollable-elements.html">
-                                                <i class="metismenu-icon">
-                                                </i>Scrollable
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="components-maps.html">
-                                                <i class="metismenu-icon">
-                                                </i>Maps
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li  >
-                                    <a href="tables-regular.html">
-                                        <i class="metismenu-icon pe-7s-display2"></i>
-                                        Tables
-                                    </a>
-                                </li>
-                                <li class="app-sidebar__heading">Widgets</li>
-                                <li>
-                                    <a href="dashboard-boxes.html">
-                                        <i class="metismenu-icon pe-7s-display2"></i>
-                                        Dashboard Boxes
-                                    </a>
-                                </li>
-                               
-                                <li class="app-sidebar__heading">Charts</li>
-                                <li>
-                                    <a href="charts-chartjs.html">
-                                        <i class="metismenu-icon pe-7s-graph2">
-                                        </i>ChartJS
-                                    </a>
-                                </li>
-                                <li class="app-sidebar__heading">PRO Version</li>
-                                <li>
-                                    <a href="https://dashboardpack.com/theme-details/architectui-dashboard-html-pro/" target="_blank">
-                                        <i class="metismenu-icon pe-7s-graph2">
-                                        </i>
-                                        Upgrade to PRO
-                                    </a>
-                                </li>
+                                
+                                <li class="app-sidebar__heading">Customer</li>
+                                
+                                <li class="app-sidebar__heading">Settings</li>
+                                
                             </ul>
                         </div>
                     </div>
@@ -583,62 +413,10 @@
                                         <i class="pe-7s-car icon-gradient bg-mean-fruit">
                                         </i>
                                     </div>
-                                    <div>Analytics Dashboard
-                                        <div class="page-title-subheading">This is an example dashboard created using build-in elements and components.
-                                        </div>
-                                    </div>
+                                    <div>Admin Dashboard
+</div>
                                 </div>
-                                <div class="page-title-actions">
-                                    <button type="button" data-toggle="tooltip" title="Example Tooltip" data-placement="bottom" class="btn-shadow mr-3 btn btn-dark">
-                                        <i class="fa fa-star"></i>
-                                    </button>
-                                    <div class="d-inline-block dropdown">
-                                        <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="btn-shadow dropdown-toggle btn btn-info">
-                                            <span class="btn-icon-wrapper pr-2 opacity-7">
-                                                <i class="fa fa-business-time fa-w-20"></i>
-                                            </span>
-                                            Buttons
-                                        </button>
-                                        <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu dropdown-menu-right">
-                                            <ul class="nav flex-column">
-                                                <li class="nav-item">
-                                                    <a href="javascript:void(0);" class="nav-link">
-                                                        <i class="nav-link-icon lnr-inbox"></i>
-                                                        <span>
-                                                            Inbox
-                                                        </span>
-                                                        <div class="ml-auto badge badge-pill badge-secondary">86</div>
-                                                    </a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a href="javascript:void(0);" class="nav-link">
-                                                        <i class="nav-link-icon lnr-book"></i>
-                                                        <span>
-                                                            Book
-                                                        </span>
-                                                        <div class="ml-auto badge badge-pill badge-danger">5</div>
-                                                    </a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a href="javascript:void(0);" class="nav-link">
-                                                        <i class="nav-link-icon lnr-picture"></i>
-                                                        <span>
-                                                            Picture
-                                                        </span>
-                                                    </a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a disabled href="javascript:void(0);" class="nav-link disabled">
-                                                        <i class="nav-link-icon lnr-file-empty"></i>
-                                                        <span>
-                                                            File Disabled
-                                                        </span>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
                                     </div>
-                                </div>    </div>
                         </div>            <div class="row">
                             <div class="col-md-6 col-xl-4">
                                 <div class="card mb-3 widget-content bg-midnight-bloom">
@@ -657,11 +435,11 @@
                                 <div class="card mb-3 widget-content bg-arielle-smile">
                                     <div class="widget-content-wrapper text-white">
                                         <div class="widget-content-left">
-                                            <div class="widget-heading">Clients</div>
-                                            <div class="widget-subheading">Total Clients Profit</div>
+                                            <div class="widget-heading">Customers</div>
+                                            <div class="widget-subheading">Total Customers Profit</div>
                                         </div>
                                         <div class="widget-content-right">
-                                            <div class="widget-numbers text-white"><span>$ 568</span></div>
+                                            <div class="widget-numbers text-white"><span>Rs 568</span></div>
                                         </div>
                                     </div>
                                 </div>
@@ -687,7 +465,7 @@
                                             <div class="widget-subheading">Revenue streams</div>
                                         </div>
                                         <div class="widget-content-right">
-                                            <div class="widget-numbers text-warning"><span>$14M</span></div>
+                                            <div class="widget-numbers text-warning"><span>Rs 12,000</span></div>
                                         </div>
                                     </div>
                                 </div>
@@ -701,10 +479,7 @@
                                             <i class="header-icon lnr-apartment icon-gradient bg-love-kiss"> </i>
                                             Sales Report
                                         </div>
-                                        <ul class="nav">
-                                            <li class="nav-item"><a href="javascript:void(0);" class="active nav-link">Last</a></li>
-                                            <li class="nav-item"><a href="javascript:void(0);" class="nav-link second-tab-toggle">Current</a></li>
-                                        </ul>
+                                       
                                     </div>
                                     <div class="card-body">
                                         <div class="tab-content">
@@ -716,7 +491,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <h6 class="text-muted text-uppercase font-size-md opacity-5 font-weight-normal">Top Authors</h6>
+                                                <h6 class="text-muted text-uppercase font-size-md opacity-5 font-weight-normal">Top Products </h6>
                                                 <div class="scroll-area-sm">
                                                     <div class="scrollbar-container">
                                                         <ul class="rm-list-borders rm-list-borders-scroll list-group list-group-flush">
@@ -727,13 +502,13 @@
                                                                             <img width="42" class="rounded-circle" src="assets/images/avatars/9.jpg" alt="">
                                                                         </div>
                                                                         <div class="widget-content-left">
-                                                                            <div class="widget-heading">Ella-Rose Henry</div>
-                                                                            <div class="widget-subheading">Web Developer</div>
+                                                                            <div class="widget-heading">Lip Gloss</div>
+                                                                            
                                                                         </div>
                                                                         <div class="widget-content-right">
                                                                             <div class="font-size-xlg text-muted">
-                                                                                <small class="opacity-5 pr-1">$</small>
-                                                                                <span>129</span>
+                                                                                <small class="opacity-5 pr-1">Rs</small>
+                                                                                <span>250</span>
                                                                                 <small class="text-danger pl-2">
                                                                                     <i class="fa fa-angle-down"></i>
                                                                                 </small>
@@ -749,13 +524,13 @@
                                                                             <img width="42" class="rounded-circle" src="assets/images/avatars/5.jpg" alt="">
                                                                         </div>
                                                                         <div class="widget-content-left">
-                                                                            <div class="widget-heading">Ruben Tillman</div>
-                                                                            <div class="widget-subheading">UI Designer</div>
+                                                                            <div class="widget-heading">Eyeshadow Palets </div>
+                                                                            
                                                                         </div>
                                                                         <div class="widget-content-right">
                                                                             <div class="font-size-xlg text-muted">
-                                                                                <small class="opacity-5 pr-1">$</small>
-                                                                                <span>54</span>
+                                                                                <small class="opacity-5 pr-1">Rs</small>
+                                                                                <span>2500</span>
                                                                                 <small class="text-success pl-2">
                                                                                     <i class="fa fa-angle-up"></i>
                                                                                 </small>
@@ -764,72 +539,9 @@
                                                                     </div>
                                                                 </div>
                                                             </li>
-                                                            <li class="list-group-item">
-                                                                <div class="widget-content p-0">
-                                                                    <div class="widget-content-wrapper">
-                                                                        <div class="widget-content-left mr-3">
-                                                                            <img width="42" class="rounded-circle" src="assets/images/avatars/4.jpg" alt="">
-                                                                        </div>
-                                                                        <div class="widget-content-left">
-                                                                            <div class="widget-heading">Vinnie Wagstaff</div>
-                                                                            <div class="widget-subheading">Java Programmer</div>
-                                                                        </div>
-                                                                        <div class="widget-content-right">
-                                                                            <div class="font-size-xlg text-muted">
-                                                                                <small class="opacity-5 pr-1">$</small>
-                                                                                <span>429</span>
-                                                                                <small class="text-warning pl-2">
-                                                                                    <i class="fa fa-dot-circle"></i>
-                                                                                </small>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </li>
-                                                            <li class="list-group-item">
-                                                                <div class="widget-content p-0">
-                                                                    <div class="widget-content-wrapper">
-                                                                        <div class="widget-content-left mr-3">
-                                                                            <img width="42" class="rounded-circle" src="assets/images/avatars/3.jpg" alt="">
-                                                                        </div>
-                                                                        <div class="widget-content-left">
-                                                                            <div class="widget-heading">Ella-Rose Henry</div>
-                                                                            <div class="widget-subheading">Web Developer</div>
-                                                                        </div>
-                                                                        <div class="widget-content-right">
-                                                                            <div class="font-size-xlg text-muted">
-                                                                                <small class="opacity-5 pr-1">$</small>
-                                                                                <span>129</span>
-                                                                                <small class="text-danger pl-2">
-                                                                                    <i class="fa fa-angle-down"></i>
-                                                                                </small>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </li>
-                                                            <li class="list-group-item">
-                                                                <div class="widget-content p-0">
-                                                                    <div class="widget-content-wrapper">
-                                                                        <div class="widget-content-left mr-3">
-                                                                            <img width="42" class="rounded-circle" src="assets/images/avatars/2.jpg" alt="">
-                                                                        </div>
-                                                                        <div class="widget-content-left">
-                                                                            <div class="widget-heading">Ruben Tillman</div>
-                                                                            <div class="widget-subheading">UI Designer</div>
-                                                                        </div>
-                                                                        <div class="widget-content-right">
-                                                                            <div class="font-size-xlg text-muted">
-                                                                                <small class="opacity-5 pr-1">$</small>
-                                                                                <span>54</span>
-                                                                                <small class="text-success pl-2">
-                                                                                    <i class="fa fa-angle-up"></i>
-                                                                                </small>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </li>
+                                                            
+                                                           
+                                                           
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -845,12 +557,7 @@
                                             <i class="header-icon lnr-rocket icon-gradient bg-tempting-azure"> </i>
                                             Bandwidth Reports
                                         </div>
-                                        <div class="btn-actions-pane-right">
-                                            <div class="nav">
-                                                <a href="javascript:void(0);" class="border-0 btn-pill btn-wide btn-transition active btn btn-outline-alternate">Tab 1</a>
-                                                <a href="javascript:void(0);" class="ml-1 btn-pill btn-wide border-0 btn-transition  btn btn-outline-alternate second-tab-toggle-alt">Tab 2</a>
-                                            </div>
-                                        </div>
+                                        
                                     </div>
                                     <div class="tab-content">
                                         <div class="tab-pane fade active show" id="tab-eg-55">
@@ -862,7 +569,7 @@
                                                     <div class="widget-description mt-0 text-warning">
                                                         <i class="fa fa-arrow-left"></i>
                                                         <span class="pl-1">175.5%</span>
-                                                        <span class="text-muted opacity-8 pl-1">increased server resources</span>
+                                                        <span class="text-muted opacity-8 pl-1">increased product resources</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -876,7 +583,7 @@
                                                                         <div class="widget-numbers fsize-3 text-muted">63%</div>
                                                                     </div>
                                                                     <div class="widget-content-right">
-                                                                        <div class="text-muted opacity-6">Generated Leads</div>
+                                                                        <div class="text-muted opacity-6">Pending</div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="widget-progress-wrapper mt-1">
@@ -895,7 +602,7 @@
                                                                         <div class="widget-numbers fsize-3 text-muted">32%</div>
                                                                     </div>
                                                                     <div class="widget-content-right">
-                                                                        <div class="text-muted opacity-6">Submitted Tickers</div>
+                                                                        <div class="text-muted opacity-6">Received</div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="widget-progress-wrapper mt-1">
@@ -914,7 +621,7 @@
                                                                         <div class="widget-numbers fsize-3 text-muted">71%</div>
                                                                     </div>
                                                                     <div class="widget-content-right">
-                                                                        <div class="text-muted opacity-6">Server Allocation</div>
+                                                                        <div class="text-muted opacity-6">successfull</div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="widget-progress-wrapper mt-1">
@@ -933,7 +640,7 @@
                                                                         <div class="widget-numbers fsize-3 text-muted">41%</div>
                                                                     </div>
                                                                     <div class="widget-content-right">
-                                                                        <div class="text-muted opacity-6">Generated Leads</div>
+                                                                        <div class="text-muted opacity-6">Incomplete Process </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="widget-progress-wrapper mt-1">
@@ -976,7 +683,7 @@
                                                 <div class="widget-subheading">Revenue streams</div>
                                             </div>
                                             <div class="widget-content-right">
-                                                <div class="widget-numbers text-warning">$3M</div>
+                                                <div class="widget-numbers text-warning">Rs 1M </div>
                                             </div>
                                         </div>
                                     </div>
@@ -991,7 +698,7 @@
                                                 <div class="widget-subheading">People Interested</div>
                                             </div>
                                             <div class="widget-content-right">
-                                                <div class="widget-numbers text-danger">45,9%</div>
+                                                <div class="widget-numbers text-danger">45.9%</div>
                                             </div>
                                         </div>
                                     </div>
@@ -1006,7 +713,7 @@
                                                 <div class="widget-subheading">Expected totals</div>
                                             </div>
                                             <div class="widget-content-right">
-                                                <div class="widget-numbers text-focus">$147</div>
+                                                <div class="widget-numbers text-focus">Rs 147</div>
                                             </div>
                                         </div>
                                         <div class="widget-progress-wrapper">
@@ -1029,7 +736,7 @@
                                         <div class="btn-actions-pane-right">
                                             <div role="group" class="btn-group-sm btn-group">
                                                 <button class="active btn btn-focus">Last Week</button>
-                                                <button class="btn btn-focus">All Month</button>
+                                                
                                             </div>
                                         </div>
                                     </div>
@@ -1057,7 +764,7 @@
                                                             </div>
                                                             <div class="widget-content-left flex2">
                                                                 <div class="widget-heading">John Doe</div>
-                                                                <div class="widget-subheading opacity-7">Web Developer</div>
+                                                                
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1082,7 +789,7 @@
                                                             </div>
                                                             <div class="widget-content-left flex2">
                                                                 <div class="widget-heading">Ruben Tillman</div>
-                                                                <div class="widget-subheading opacity-7">Etiam sit amet orci eget</div>
+                                                                
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1107,7 +814,7 @@
                                                             </div>
                                                             <div class="widget-content-left flex2">
                                                                 <div class="widget-heading">Elliot Huber</div>
-                                                                <div class="widget-subheading opacity-7">Lorem ipsum dolor sic</div>
+                                                                
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1131,7 +838,7 @@
                                                             </div>
                                                             <div class="widget-content-left flex2">
                                                                 <div class="widget-heading">Vinnie Wagstaff</div>
-                                                                <div class="widget-subheading opacity-7">UI Designer</div>
+                                                               
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1241,42 +948,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="app-wrapper-footer">
-                        <div class="app-footer">
-                            <div class="app-footer__inner">
-                                <div class="app-footer-left">
-                                    <ul class="nav">
-                                        <li class="nav-item">
-                                            <a href="javascript:void(0);" class="nav-link">
-                                                Footer Link 1
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="javascript:void(0);" class="nav-link">
-                                                Footer Link 2
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="app-footer-right">
-                                    <ul class="nav">
-                                        <li class="nav-item">
-                                            <a href="javascript:void(0);" class="nav-link">
-                                                Footer Link 3
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="javascript:void(0);" class="nav-link">
-                                                <div class="badge badge-success mr-1 ml-0">
-                                                    <small>NEW</small>
-                                                </div>
-                                                Footer Link 4
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                    
                     </div>    </div>
                 <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
         </div>
@@ -1288,98 +960,9 @@
 
 
     <div id="footer"></div>
+    <script src="footer.js"></script>
     
 </body>
 
 </html>
-      .total {
-        width: 50%;
-        background-color: #616a6b;
-        box-sizing: border-box;
-        border: 1px solid black;
-        margin: 5px;
-        padding: 3%3;
-      }
-
-      #table {
-        display: flex;
-      }
-      table {
-        width: 100%;
-      }
-      .pro {
-        width: 30%;
-        background-color: #7b7d7d;
-        box-sizing: border-box;
-        border: 1px solid black;
-        margin: 5px;
-        padding: 3%;
-      }
-      th {
-        width: 20%;
-        box-sizing: border-box;
-        background-color: lightgray;
-        padding: 5%;
-      }
-      td {
-        width: 20%;
-        box-sizing: border-box;
-        background-color: lightgray;
-        padding: 5%;
-      }
-    </style>
-  </head>
-
-  <body>
-    <!-- navigation -->
-
-    <div id="header"></div>
-    <script src="header.js"></script>
-    <div id="admin-main">
-      <div class="total"><h2>Total Customer</h2></div>
-      <div class="total"><h2>Total Orders</h2></div>
-      <div class="total"><h2>Orders</h2></div>
-    </div>
-
-    <div id="table">
-      <div class="pro"><h2>Orders</h2></div>
-      <div class="pro"><h2>Customer</h2></div>
-      <div class="pro"><h2>Posted Date</h2></div>
-      <div class="pro"><h2>price</h2></div>
-      <div class="pro"><h2>Status</h2></div>
-    </div>
-    <table border="2%">
-      <tr>
-        <th>Product</th>
-        <th>Product</th>
-        <th>Product</th>
-        <th>Product</th>
-        <th>Product</th>
-      </tr>
-      <tr>
-        <td>Product</td>
-        <td>Product</td>
-        <td>Product</td>
-        <td>Product</td>
-        <td>Product</td>
-      </tr>
-      <tr>
-        <td>Product</td>
-        <td>Product</td>
-        <td>Product</td>
-        <td>Product</td>
-        <td>Product</td>
-      </tr>
-      <tr>
-        <td>Product</td>
-        <td>Product</td>
-        <td>Product</td>
-        <td>Product</td>
-        <td>Product</td>
-      </tr>
-    </table>
-
-    <div id="footer"></div>
-    <script src="footer.js"></script>
-  </body>
-</html>
+      

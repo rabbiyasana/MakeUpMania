@@ -259,18 +259,12 @@ a:hover {
     left: 69px;
     padding-left: 15px;
 }
-
-
-/*
-    #logo{
-        padding: 0;
-        padding-left: 3px;
-    }
-    .small-logo{
-        display: block;
-    }
-*/
-    
+.logo img {
+        width: 154px;
+        height: 56px ;
+    padding-bottom: 7px; 
+   }
+   
 
 
    
