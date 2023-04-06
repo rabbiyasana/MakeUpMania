@@ -37,7 +37,7 @@ document.getElementById("footer").innerHTML = `
 
 <div class="row mt-2">
 <div class="col-lg-12">
-  <p>Copyright © 2022 Makeup Mania Corporation Limited & Khaadi Pakistan SMC Pvt. Ltd. All Rights Reserved</p>
+  <p>Copyright © 2022 Makeup Mania Corporation Limited . All Rights Reserved</p>
 </div>
 </div>
 `
