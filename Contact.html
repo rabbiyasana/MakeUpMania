@@ -1,68 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha3-dist/css/bootstrap.css">
     <title>Contact Us</title>
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+</head>
 
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!-- navigation -->
+<body>
+
+    <!-- header -->
+
     <div id="header"></div>
     <script src="header.js"></script>
+
     <!--form-->
 
-    <h2 class="form_h2">Contact Us</h2>
-    <br />
-    <p class="form_p">
-      We’re happy to help! If you have order status related questions,<br />
-      check our Order Tracking page. If you have brand or website<br />
-      questions, check out our FAQ page. If you still need help, we’ll<br />
-      respond to your message below.<br /><br />
-    </p>
-    <div class="contact_form">
-      <form>
-        <label class="form_label">Name</label><br />
-        <input class="form_input" type="text" /><br /><br />
-        <label class="form_label">Email</label><br />
-        <input class="form_input" type="email" /><br /><br />
-        <label class="form_label">Phone</label><br />
-        <input class="form_input" type="text" /><br /><br />
-        <label class="form_label" for="issue">How can we help?</label><br />
-        <select class="form_select" id="form_issue" name="issue">
-          <option class="form_option" value="track">tracking issue</option>
-          <option class="form_option" value="damage">damage product</option>
-          <option class="form_option" value="privacy">data privacy</option>
-          <option class="form_option" value="dandt">
-            delivery and tracking issue
-          </option></select
-        ><br /><br />
-        <label class="form_label" s>Message</label><br />
-        <textarea class="form_input" rows="5" cols="40"> </textarea><br /><br />
-        <input class="form_btn" type="submit" value="Submit" />
-      </form>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-xxl-12 bg-light">
+                <p class="h2 text-center text-danger ">Contact Us</h2>
+            </div>
+        </div>
     </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xxl-12 bg-light ">
+                <p class="text-center text-bg-secondary">
+                    We’re happy to help! If you have order status related questions,
+                    check our Order Tracking page. If you have brand or website
+                    questions, check out our FAQ page. If you still need help, we’ll
+                    respond to your message below
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4">
+            <form class="px-4 py-3 mb-3 d-grid gap-4">
+                <input class="form-control me-2" type="text" placeholder="Your name" aria-label="name" />
+
+                <input class="form-control me-2 " type="email" placeholder="Email here!" aria-label="email" />
+
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>How can we help?</option>
+                    <option value="1">tracking issue</option>
+                    <option value="2">damage product</option>
+                    <option value="3">data privacy</option>
+                </select>
+
+                <textarea class="form-control" rows="3" cols="20" placeholder="Enter your query" aria-label="query">
+
+                        </textarea>
+
+                <input class="btn btn-secondary btn-sm " type="button" value="Submit" />
+
+            </form>
+        </div>
+    </div>
+    </div>
+
+
+
     <!--form end-->
 
     <div class="container-fluid navigation-bg">
-      <div class="container">
-        <div id="footer"></div>
-      </div>
+        <div class="container">
+            <div id="footer"></div>
+        </div>
     </div>
+
     <script src="footer.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+
+</body>
+
 </html>

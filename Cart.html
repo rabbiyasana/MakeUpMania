@@ -1,83 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+          rel="stylesheet" 
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+          crossorigin="anonymous"
+    />
     <title>Add To Cart</title>
-  </head>
-  <body>
-    <!--header-->
-    <div id="header"></div>
-    <script src="header.js"></script>
-    <!--Cart Container-->
-    <div class="CartContainer"></div>
-    <div class="Head">
-      <h3 class="Heading">Shopping Cart</h3>
-      <h5 class="Action">Remove all</h5>
-    </div>
+   
+</head>
+<body>
+        <!--header-->
 
-    <div class="Cart-Items">
-      <div class="cart-image-box">
-        <img
-          src="https://cdn.shopify.com/s/files/1/0662/4598/4498/products/0404_Vitamin-C-Promo_HP-Banner_Desktop_UK._rev_1jpg_1.jpg?v=1676681161"
-          height="120px"
-        />
-      </div>
-      <div class="about">
-        <h2 class="title">BB Cream</h2>
-        <h3 class="subtitle">250ml</h3>
-      </div>
-      <div class="counter">
-        <div class="btn">+</div>
-        <div class="count">2</div>
-        <div class="btn">-</div>
-      </div>
-      <div class="prices">
-        <div class="amount">399</div>
-        <div class="save"><u>Save for later</u></div>
-        <div class="remove"><u>Remove</u></div>
-      </div>
-    </div>
+        <div id="header"></div>
+        <script src="header.js"></script>
 
-    <div class="Cart-Items pad">
-      <div class="cart-image-box">
-        <img
-          src="https://cdn.shopify.com/s/files/1/0662/4598/4498/products/KYLIE-SKIN-26_V2_GrayBackground.jpg?v=1677028400"
-          height="120px"
-        />
-      </div>
-      <div class="about">
-        <h1 class="title">primer</h1>
-        <h3 class="subtitle">250ml</h3>
-      </div>
-      <div class="counter">
-        <div class="btn">+</div>
-        <div class="count">1</div>
-        <div class="btn">-</div>
-      </div>
-      <div class="prices">
-        <div class="amount">319</div>
-        <div class="save"><u>Save for later</u></div>
-        <div class="remove"><u>Remove</u></div>
-      </div>
-    </div>
-    <hr />
+        <!--Cart Container-->
+
+        <div class="CartContainer"></div>
+             <div class="Head">
+                <h3 class="Heading">Shopping Cart</h3>
+                <h5 class="Action">Remove all</h5>
+             </div>
+
+        <div class="Cart-Items">
+              <div class="cart-image-box">
+                  <img src="https://cdn.shopify.com/s/files/1/0662/4598/4498/products/0404_Vitamin-C-Promo_HP-Banner_Desktop_UK._rev_1jpg_1.jpg?v=1676681161" height="120px" />
+              </div>
+              <div class="about">
+                  <h2 class="title">BB Cream</h2>
+                  <h3 class="subtitle">250ml</h3>   
+              </div>
+              <div class="counter">
+                  <div class="btn">+</div>
+                  <div class="count">2</div>
+                  <div class="btn">-</div>
+              </div>
+              <div class="prices">
+                  <div class="amount">399</div>
+                  <div class="save"><u>Save for later</u></div>
+                  <div class="remove"><u>Remove</u></div>
+              </div>
+        </div>
+
+        <div class="Cart-Items pad">
+              <div class="cart-image-box">
+                  <img src="https://cdn.shopify.com/s/files/1/0662/4598/4498/products/KYLIE-SKIN-26_V2_GrayBackground.jpg?v=1677028400" height="120px"/>
+              </div>
+              <div class="about">
+                  <h1 class="title">primer</h1>
+                  <h3 class="subtitle">250ml</h3>
+              </div>
+              <div class="counter">
+                  <div class="btn">+</div>
+                  <div class="count">1</div>
+                  <div class="btn">-</div>
+              </div>
+              <div class="prices">
+                  <div class="amount">319</div>
+                  <div class="save"><u>Save for later</u></div>
+                  <div class="remove"><u>Remove</u></div>
+              </div>
+        </div>
+      <hr> 
     <div class="summary">
       <div class="checkout">
-        <div class="total">
+       <div class="total">
           <div>
-            <div class="Subtotal">Sub-Total</div>
-            <div class="items">2 items</div>
+              <div class="Subtotal">Sub-Total</div>
+              <div class="items">2 items</div>
           </div>
-          <div class="total-amount">718</div>
-        </div>
-        <button class="button">Checkout</button>
-        <button class="button">Continue Shopping</button>
+        <div class="total-amount">718</div>
       </div>
+      <button type="submit"class="button">Checkout</button>
+      <button class="button">Continue Shopping</button>
+     </div>
     </div>
-    <div id="footer"></div>
-    <script src="footer.js"></script>
-  </body>
+      
+    <div class="container-fluid navigation-bg">
+        <div class="container">
+          <div id="footer"></div>
+        </div>
+    </div>
+      <script src="footer.js"></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"
+      ></script>
+</body>
 </html>

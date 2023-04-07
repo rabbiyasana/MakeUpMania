@@ -415,7 +415,9 @@ hr{
 	color: #202020;
 }
 
-.form_h2{
+/* contact us */
+
+.col-h2{
     text-align: center;
     color: #b43a3a;
     font-size: 40px;
@@ -460,7 +462,6 @@ hr{
     border-radius: 4px;
     color: #393939;
     display: block;
-    font-family: Tt-Chocolate;
     height: auto;
     letter-spacing: 0;
     padding: 0.65rem 0.75rem;
@@ -473,7 +474,6 @@ hr{
     border-radius: 4px;
     color: #393939;
     display: block;
-    font-family: Tt-Chocolate;
     height: auto;
     letter-spacing: 0;
     line-height: 1.125rem;
@@ -485,7 +485,6 @@ hr{
 .form_btn{
     align-items: center;
     width:50%;
-    font-family: Tt-Chocolate;
     font-size: .9375rem;
     height: 2.5rem;
     justify-content: center;
@@ -493,7 +492,7 @@ hr{
 }
 
 .form_option{
-    font-family: Tt-Chocolate;  
+      
     font-size: 15px;
     height: 2.5rem;
 }
