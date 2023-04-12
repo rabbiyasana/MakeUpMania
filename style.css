@@ -396,19 +396,8 @@ td {
 }
 
 
-.summary {
-  width: 90%;
-  display: flex;
-}
-
-.checkout {
-  align-content: center;
-  margin-right: 5%;
-  width: 28%;
-}
-
 .total {
-  width: 100%;
+  
   display: flex;
   justify-content: space-between;
 }
@@ -418,6 +407,7 @@ td {
   font-family: 'Open Sans';
   font-weight: 700;
   color: #202020;
+ 
 }
 
 .items {
@@ -426,6 +416,7 @@ td {
   font-weight: 500;
   color: #909090;
   line-height: 10px;
+ 
 }
 
 .total-amount {
