@@ -1,9 +1,10 @@
 import { Home } from "./pages/Home/Home";
-// import ResponsiveAppBar from "./componenets/navigation/navBar";
+import { NavBar } from "./componenets/navigation/navBar";
 function App() {
   return (
     <>
       {/* <ResponsiveAppBar /> */}
+      <NavBar />
       <Home></Home>
     </>
   );
