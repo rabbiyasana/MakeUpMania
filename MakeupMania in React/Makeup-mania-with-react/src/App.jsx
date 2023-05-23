@@ -4,7 +4,7 @@ function App() {
   return (
     <>
       {/* <ResponsiveAppBar /> */}
-      <NavBar />
+      <p>xsc</p>
       <Home></Home>
     </>
   );
