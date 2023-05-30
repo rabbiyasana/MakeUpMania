@@ -1,5 +1,5 @@
 
-document.getElementById("footer").innerHTML = `
+document.etElementById("footer").innerHTML = `
   <div class="row pt-4">
     <div class="col-lg-3 col-md-6 col-sm-12  foot">
       <ul>
