@@ -6,7 +6,7 @@ document.getElementById("footer").innerHTML = `
         <li><h5>HELP</h5></li>
         <li>12345678</li>
         <li><a href="#">Customer Service</a></li>
-        <li><a href="#">Shipping & REturns</a></li>
+        <li><a href="#">Shipping & Returns</a></li>
         <li>socials</li>
       </ul>
     </div>
